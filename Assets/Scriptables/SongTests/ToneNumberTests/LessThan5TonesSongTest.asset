@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 672f6823a6e16204eab6b01d586da1b7, type: 3}
-  m_Name: LessThan4TonesSongTest
+  m_Name: LessThan5TonesSongTest
   m_EditorClassIdentifier: 
   IsInverse: 1
-  NumberOfTones: 4
+  NumberOfTones: 5

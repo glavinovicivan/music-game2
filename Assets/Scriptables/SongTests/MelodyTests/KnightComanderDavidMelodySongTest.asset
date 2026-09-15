@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46a3bc69dc6b12449a91997ec73b43f7, type: 3}
-  m_Name: KnightComanderCharlesMelodySongTest
+  m_Name: KnightComanderDavidMelodySongTest
   m_EditorClassIdentifier: 
   IsInverse: 0
   m_notes:

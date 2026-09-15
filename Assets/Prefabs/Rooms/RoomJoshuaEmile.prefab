@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2431303137674401929}
   - component: {fileID: 8819226480781743191}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: AnxietyHum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,13 +261,13 @@ PrefabInstance:
       addedObject: {fileID: 4776574295093309325}
     - targetCorrespondingSourceObject: {fileID: 3702769362875030106, guid: 80536092fbadbd14c993e639d50b63f6, type: 3}
       insertIndex: 1
+      addedObject: {fileID: 8769625766674707065}
+    - targetCorrespondingSourceObject: {fileID: 3702769362875030106, guid: 80536092fbadbd14c993e639d50b63f6, type: 3}
+      insertIndex: 2
       addedObject: {fileID: 6480918055528441683}
     - targetCorrespondingSourceObject: {fileID: 3702769362875030106, guid: 80536092fbadbd14c993e639d50b63f6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8837427590768505460}
-    - targetCorrespondingSourceObject: {fileID: 3702769362875030106, guid: 80536092fbadbd14c993e639d50b63f6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8769625766674707065}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80536092fbadbd14c993e639d50b63f6, type: 3}
 --- !u!114 &968456110806761031 stripped
@@ -394,13 +394,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 19d5588e5bdeb4847bd149be56d79a1f, type: 3}
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
-      propertyPath: m_objectsToActivate.Array.size
+      propertyPath: m_rewards.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
-      propertyPath: m_objectsToActivate.Array.data[0]
+      propertyPath: m_rewards.Array.data[0]
       value: 
-      objectReference: {fileID: 1198748554610106947}
+      objectReference: {fileID: 11400000, guid: cb9636d4016fb0749b672ecc142bdb79, type: 2}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.size
       value: 6
@@ -526,7 +526,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 0343db980818b544f96529b568293fae, type: 2}
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_objectsToActivate.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_objectsToDeactivate.Array.size
@@ -536,6 +536,10 @@ PrefabInstance:
       propertyPath: m_objectsToActivate.Array.data[0]
       value: 
       objectReference: {fileID: 3661375441422172021}
+    - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
+      propertyPath: m_objectsToActivate.Array.data[1]
+      value: 
+      objectReference: {fileID: 1198748554610106947}
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_objectsToDeactivate.Array.data[0]
       value: 
