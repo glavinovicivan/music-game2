@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MoreThan3TonesTest
   m_EditorClassIdentifier: 
   IsInverse: 0
-  NumberOfTones: 3
+  NumberOfTones: 4

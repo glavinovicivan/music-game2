@@ -99,6 +99,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 7c8031fa32bdf7e45934384cb2f077c5, type: 3}
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
+      propertyPath: m_rewards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
+      propertyPath: m_rewards.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: cb9636d4016fb0749b672ecc142bdb79, type: 2}
+    - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_objectsToActivate.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -108,16 +116,16 @@ PrefabInstance:
       objectReference: {fileID: 5717214351858785908}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: d85982ed7c89b6c4cbc7bcd9bc67f6ec, type: 2}
+      objectReference: {fileID: 11400000, guid: b259b0710dfc810449bfd11220c26090, type: 2}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: fe20cb21c631dd64d9d6db5162deeeec, type: 2}
+      objectReference: {fileID: 11400000, guid: b259b0710dfc810449bfd11220c26090, type: 2}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.data[3]
       value: 
@@ -277,12 +285,12 @@ PrefabInstance:
       objectReference: {fileID: 9124798335053894017}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: d85982ed7c89b6c4cbc7bcd9bc67f6ec, type: 2}
+      objectReference: {fileID: 11400000, guid: 711700c822919c247a6f0cc89ab07faf, type: 2}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.data[2]
       value: 
@@ -376,7 +384,7 @@ PrefabInstance:
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_rewards.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: cb9636d4016fb0749b672ecc142bdb79, type: 2}
+      objectReference: {fileID: 11400000, guid: b8efd0c9c69279b4d9ebc59ff491f4d8, type: 2}
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_objectsToActivate.Array.size
       value: 1
@@ -387,12 +395,12 @@ PrefabInstance:
       objectReference: {fileID: 1143092488938422608}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: fe20cb21c631dd64d9d6db5162deeeec, type: 2}
+      objectReference: {fileID: 11400000, guid: 3ad5dfbf8e934de4f8370399062f2218, type: 2}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.data[2]
       value: 
@@ -466,7 +474,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2768883722432323206, guid: 80536092fbadbd14c993e639d50b63f6, type: 3}
       propertyPath: m_Name
-      value: RoomStartGame
+      value: RoomTutorial
       objectReference: {fileID: 0}
     - target: {fileID: 3702769362875030106, guid: 80536092fbadbd14c993e639d50b63f6, type: 3}
       propertyPath: m_LocalPosition.x
