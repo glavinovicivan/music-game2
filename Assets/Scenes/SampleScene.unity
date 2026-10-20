@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_roomEntry
       value: 
       objectReference: {fileID: 2383349266561147672}
+    - target: {fileID: 3999374672037491169, guid: 64fd9b618c1c10e40bc060aa263de7e1, type: 3}
+      propertyPath: m_teleportOffset.z
+      value: -18
+      objectReference: {fileID: 0}
     - target: {fileID: 7085580270606398880, guid: 64fd9b618c1c10e40bc060aa263de7e1, type: 3}
       propertyPath: m_Name
       value: RoomAntiquarian
@@ -317,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 350465019}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -156.32}
+  m_LocalPosition: {x: 0, y: 0, z: -158.778}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -858,6 +862,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &425369313 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4785654368249758893, guid: 64fd9b618c1c10e40bc060aa263de7e1, type: 3}
+  m_PrefabInstance: {fileID: 309800556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8abc25baa2fbc4c9498a5c8c34f668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &487119556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1060,6 +1075,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &910971294 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6450597720298493298, guid: 8e4b84d18a592c548aa918e624ab9c04, type: 3}
+  m_PrefabInstance: {fileID: 1817910087}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8abc25baa2fbc4c9498a5c8c34f668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1296650887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1347,6 +1373,10 @@ PrefabInstance:
       propertyPath: m_roomEntry
       value: 
       objectReference: {fileID: 2383349266561147672}
+    - target: {fileID: 3201933075579265086, guid: 8e4b84d18a592c548aa918e624ab9c04, type: 3}
+      propertyPath: m_teleportOffset.z
+      value: -18
+      objectReference: {fileID: 0}
     - target: {fileID: 4832170550848211183, guid: 8e4b84d18a592c548aa918e624ab9c04, type: 3}
       propertyPath: m_objectsToActivate.Array.size
       value: 2
@@ -1609,10 +1639,6 @@ PrefabInstance:
       propertyPath: m_roomEntry
       value: 
       objectReference: {fileID: 1358503736}
-    - target: {fileID: 6899898675182686239, guid: 178d5e203f9a72a4fbcd321a24019476, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.2
-      objectReference: {fileID: 0}
     - target: {fileID: 7472914477798569889, guid: 178d5e203f9a72a4fbcd321a24019476, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1664,10 +1690,6 @@ PrefabInstance:
     - target: {fileID: 8267144446133646205, guid: 178d5e203f9a72a4fbcd321a24019476, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8819324869937167711, guid: 178d5e203f9a72a4fbcd321a24019476, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -13.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1959,6 +1981,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2381154874777200694, guid: 9910e1c7720d022468c24b83b33827b9, type: 3}
+      propertyPath: m_roomEntry
+      value: 
+      objectReference: {fileID: 910971294}
+    - target: {fileID: 2381154874777200694, guid: 9910e1c7720d022468c24b83b33827b9, type: 3}
+      propertyPath: m_teleportOffset.x
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 3133898852448766324, guid: 9910e1c7720d022468c24b83b33827b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1998,6 +2028,14 @@ PrefabInstance:
     - target: {fileID: 3133898852448766324, guid: 9910e1c7720d022468c24b83b33827b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4107827899539252903, guid: 9910e1c7720d022468c24b83b33827b9, type: 3}
+      propertyPath: m_roomEntry
+      value: 
+      objectReference: {fileID: 425369313}
+    - target: {fileID: 4107827899539252903, guid: 9910e1c7720d022468c24b83b33827b9, type: 3}
+      propertyPath: m_teleportOffset.x
+      value: -22
       objectReference: {fileID: 0}
     - target: {fileID: 4499716614859230632, guid: 9910e1c7720d022468c24b83b33827b9, type: 3}
       propertyPath: m_Name

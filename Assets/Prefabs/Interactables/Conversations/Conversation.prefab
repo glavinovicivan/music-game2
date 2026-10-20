@@ -487,7 +487,7 @@ MonoBehaviour:
   m_dialogueSource: {fileID: 2787118669160521141}
   m_backgroundHumAudioClip: {fileID: 8300000, guid: 5223ebf5d1bd8a348b970414493555b0, type: 3}
   m_playerCloseEnoughClip: {fileID: 8300000, guid: 4e2fb9a6a91f80b49bea82628bf1d2e9, type: 3}
-  m_conversationClip: {fileID: 0}
+  m_conversationClip: {fileID: 8300000, guid: c08adcab6c72c3c4cb697cc20590a3f2, type: 3}
   m_rewards: []
   m_destroyOnEnd: 0
   m_room: {fileID: 0}
