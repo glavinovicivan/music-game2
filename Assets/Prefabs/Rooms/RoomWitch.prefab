@@ -329,12 +329,12 @@ PrefabInstance:
       objectReference: {fileID: 1206442375456028602}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: d85982ed7c89b6c4cbc7bcd9bc67f6ec, type: 2}
+      objectReference: {fileID: 11400000, guid: 48254ba21fd44334e91a66c097055ca2, type: 2}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.data[2]
       value: 

@@ -510,7 +510,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 3bb7829f8bf5a464abb1a71abe6a705f, type: 3}
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_rewards.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_rewards.Array.data[0]

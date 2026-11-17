@@ -1,5 +1,7 @@
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
 
 [Serializable]
 public class Song
@@ -50,6 +52,20 @@ public class Song
             }
         }
         return longestSongLineLength;
+    }
+
+    public int GetSongNumberOfTones()
+    {
+        int numberOfTones = 0;
+        foreach (SongLine songLine in SongLines)
+        {
+            List<Note> notes = songLine.Notes.Where(x => x.Tone != ETones.Pause).ToList();
+            if (notes.Count > numberOfTones)
+            {
+                numberOfTones = notes.Count;
+            }
+        }
+        return numberOfTones;
     }
 
     public void RemoveTrailingPauses()
