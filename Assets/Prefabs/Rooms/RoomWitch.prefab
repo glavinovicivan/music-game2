@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: m_room
       value: 
       objectReference: {fileID: 6450597720298493298}
+    - target: {fileID: 3844037884800532806, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
+      propertyPath: m_destroyOnSuccess
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4208194009940226411, guid: e407cb60b063d93419532c0600f5fde4, type: 3}
       propertyPath: m_songTests.Array.size
       value: 2

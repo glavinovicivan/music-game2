@@ -22,6 +22,8 @@ public class QuestgiverController : MonoBehaviour, IInteractable
     [SerializeField]
     private AudioClip m_introClip;
     [SerializeField]
+    private AudioClip m_afterFailureIntroClip;
+    [SerializeField]
     private AudioClip m_failureClip;
     [SerializeField]
     private AudioClip m_successClip;
@@ -40,6 +42,10 @@ public class QuestgiverController : MonoBehaviour, IInteractable
 
     [SerializeField]
     private RoomController m_room;
+    [SerializeField]
+    private bool m_destroyOnSuccess = true;
+
+    private bool m_didAlreadyFail = false;
 
     void Start()
     {
@@ -80,10 +86,10 @@ public class QuestgiverController : MonoBehaviour, IInteractable
     #region StartQuest
     public void StartInteraction()
     {
-        m_dialogueSource.clip = m_introClip;
+        m_dialogueSource.clip = m_didAlreadyFail ? m_afterFailureIntroClip : m_introClip;
         m_dialogueSource.Play();
         m_backgroundHumSource.Stop();
-        StartCoroutine(StartQuestCoroutine(m_introClip.length));
+        StartCoroutine(StartQuestCoroutine(m_dialogueSource.clip.length));
     }
 
     private IEnumerator StartQuestCoroutine(float _duration)
@@ -119,6 +125,7 @@ public class QuestgiverController : MonoBehaviour, IInteractable
         {
             m_dialogueSource.clip = m_failureClip;
             m_dialogueSource.Play();
+            m_didAlreadyFail = true;
             StartCoroutine(QuestFailureCoroutine(m_failureClip.length));
         }
     }
@@ -127,7 +134,10 @@ public class QuestgiverController : MonoBehaviour, IInteractable
     {
         yield return new WaitForSeconds(_duration);
         m_playerController.EndInteraction();
-        Destroy(gameObject);
+        if (m_destroyOnSuccess)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private IEnumerator QuestFailureCoroutine(float _duration)
@@ -138,7 +148,7 @@ public class QuestgiverController : MonoBehaviour, IInteractable
     }
     #endregion
 
-    public RoomController GetRoom() 
+    public RoomController GetRoom()
     {
         return m_room;
     }
